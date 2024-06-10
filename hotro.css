@@ -1,0 +1,106 @@
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(img/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 230px;
+}
+
+header img {
+    padding-top: 60px;
+}
+
+nav {
+    background-color: orange;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.search {
+    float: right;
+}
+
+.search form input {
+    border: 1px solid black;
+}
+
+.search form button {
+    border: 1px solid black;
+}
+
+.search form button:hover {
+    background-color: yellow;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.search {
+    float: right;
+    padding-top: 10px;
+}
+
+.search button:hover {
+    background-color: yellow;
+}
+
+.search button:visited {
+    background-color: black;
+}
+
+aside{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    height: 500px;
+    clear: both;
+    
+}
+
+.footer1 {
+    float: left;
+    width: 40%;
+}
+
+.footer1 img {
+    padding-bottom: 40px;
+}
+
+.LienHe a {
+    margin: 10px;
+}
+
+.ThongTinLienHe {
+    color: white;
+}
+
+.footer2 {
+    color: white;
+    width: 60%;
+    float: right;
+}
